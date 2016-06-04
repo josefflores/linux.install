@@ -1,5 +1,9 @@
 # install script
 
+# Github
+git config --global user.email "jose.flores.152@gmail.com"
+git config --global user.name "Jose Flores"
+
 
 # Visual Code
 ### User Settings
