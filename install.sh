@@ -1,5 +1,9 @@
 # install script
 
+# Linux
+apt-get update
+apt-get upgrade
+
 # Github
 git config credential.helper store
 git config --global user.email "jose.flores.152@gmail.com"
