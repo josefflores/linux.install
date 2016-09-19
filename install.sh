@@ -4,6 +4,9 @@
 apt-get update
 apt-get upgrade
 
+# Win 10 Bash
+apt-get install build-essential
+
 # Github
 git config credential.helper store
 git config --global user.email "jose.flores.152@gmail.com"
@@ -19,8 +22,3 @@ dpkg -i google-chrome*.deb
 ### https://code.visualstudio.com/Docs/editor/setup
 wget "http://go.microsoft.com/fwlink/?LinkID=760868"
 dpkg -i vscode-amd64.deb
-
-### User Settings
-rm -rf ~/.config/Code/User
-git clone https://github.com/josefflores/settings.visualcode.git ~/.config/Code/User
-
