@@ -8,6 +8,7 @@ apt-get upgrade
 apt-get install build-essential
 
 # Github
+apt-get install git
 git config credential.helper store
 git config --global user.email "jose.flores.152@gmail.com"
 git config --global user.name "Jose Flores"
