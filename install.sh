@@ -23,3 +23,7 @@ dpkg -i google-chrome*.deb
 ### https://code.visualstudio.com/Docs/editor/setup
 wget "http://go.microsoft.com/fwlink/?LinkID=760868"
 dpkg -i vscode-amd64.deb
+
+# NodeJS
+apt-get install nodejs
+apt-get install npm
