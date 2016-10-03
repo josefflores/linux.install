@@ -6,6 +6,7 @@ apt-get upgrade
 
 # Win 10 Bash
 apt-get install build-essential
+apt-get install openssh-client
 
 # Github
 apt-get install git
