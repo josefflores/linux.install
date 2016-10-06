@@ -29,5 +29,12 @@ dpkg -i vscode-amd64.deb
 apt-get install nodejs
 apt-get install npm
 
+# Update Node
+npm install -g npm
+
+# Visual code extension generator
+npm install -g yo 
+npm install -g generator-code
+
 # UML computer architecture
 apt-get install flex
