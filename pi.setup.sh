@@ -22,8 +22,8 @@ sudo apt-get update
 sudo apt-get install chromium-browser rpi-youtube -y
 
 # Install nodejs
-wget http://node-arm.herokuapp.com/node_latest_armhf.deb ~/Downloads/node_latest_armhf.deb
-sudo dpkg -i ~/Downloads/node_latest_armhf.deb
+curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+sudo apt-get install -y nodejs
 
 # Git
 sudo apt-get install git
